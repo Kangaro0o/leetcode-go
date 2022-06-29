@@ -10,3 +10,4 @@ LeetCode 算法题解合集（Go语言版）
 - [172. 阶乘后的零](https://kangaro0o.github.io/172-jie-cheng-hou-de-ling/)
 - [875. 爱吃香蕉的珂珂](https://kangaro0o.github.io/875-ai-chi-xiang-jiao-de-ke-ke/)
 - [1011. 在 D 天内送达包裹的能力](https://kangaro0o.github.io/1011-zai-d-tian-nei-song-da-bao-guo-de-neng-li/)
+- [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
