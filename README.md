@@ -16,3 +16,4 @@ LeetCode 算法题解合集（Go语言版）
 - [76. 最小覆盖子串](https://kangaro0o.github.io/xsqRVMl3J/)
 - [239. 滑动窗口最大值](https://kangaro0o.github.io/fYCKxL_B7/)
 - [16. 最接近的三数之和](https://kangaro0o.github.io/pPMR-7ZAJ/)
+- [26. 删除有序数组中的重复项](https://kangaro0o.github.io/xlM6V5uuE/)
