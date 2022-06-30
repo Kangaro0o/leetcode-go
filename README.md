@@ -15,3 +15,4 @@ LeetCode 算法题解合集（Go语言版）
 - [567. 字符串的排列](https://kangaro0o.github.io/3U5cy8w2C/)
 - [76. 最小覆盖子串](https://kangaro0o.github.io/xsqRVMl3J/)
 - [239. 滑动窗口最大值](https://kangaro0o.github.io/fYCKxL_B7/)
+- [16. 最接近的三数之和](https://kangaro0o.github.io/pPMR-7ZAJ/)
