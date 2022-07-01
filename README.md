@@ -19,3 +19,4 @@ LeetCode 算法题解合集（Go语言版）
 - [26. 删除有序数组中的重复项](https://kangaro0o.github.io/xlM6V5uuE/)
 - [27. 移除元素](https://kangaro0o.github.io/rl8OOYL9z/)
 - [283. 移动零](https://kangaro0o.github.io/JFD7Ab9Ou/)
+- [70. 优势洗牌](https://kangaro0o.github.io/aH2csHaSr/)
