@@ -1,6 +1,8 @@
 // Package linkedlist 链表
 package linkedlist
 
+import "fmt"
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,7 +45,7 @@ func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
 	return dummy.Next
 }
 
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummy := &ListNode{} // 虚拟头节点
 	p := dummy
 	p1, p2 := l1, l2
@@ -68,4 +70,35 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		p = p.Next
 	}
 	return dummy.Next
+}
+
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	head := &ListNode{Val: -1} // 假设 head 为结果链表头节点
+	p := head
+	p1, p2 := l1, l2
+	var carry int // 记录进位
+	for p1 != nil || p2 != nil || carry > 0 {
+		if p.Val != -1 { // 如果没有虚拟头节点，则需要对节点做额外判断
+			p.Next = &ListNode{}
+			p = p.Next
+		}
+		val := 0
+		if carry > 0 {
+			val += carry
+		}
+		if p1 != nil {
+			val += p1.Val
+			p1 = p1.Next
+		}
+		if p2 != nil {
+			val += p2.Val
+			p2 = p2.Next
+		}
+		carry = val / 10
+		val = val % 10
+		// 记录该节点两数相加的值
+		p.Val = val
+		fmt.Println("p.Val", p.Val)
+	}
+	return head
 }
