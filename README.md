@@ -21,3 +21,4 @@ LeetCode 算法题解合集（Go语言版）
 - [283. 移动零](https://kangaro0o.github.io/JFD7Ab9Ou/)
 - [70. 优势洗牌](https://kangaro0o.github.io/aH2csHaSr/)
 - [11. 盛最多水的容器](https://kangaro0o.github.io/L4u74aBHp/)
+- [42. 接雨水](https://kangaro0o.github.io/uCT0J-A5R/)
