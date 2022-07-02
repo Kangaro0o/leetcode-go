@@ -1,3 +1,4 @@
+// Package binarysearch 二分搜索
 package binarysearch
 
 func searchRange(nums []int, target int) []int {
