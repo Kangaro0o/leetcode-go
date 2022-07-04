@@ -31,3 +31,4 @@ LeetCode 算法题解合集（Go语言版）
 - [53. 最大子数组和](https://kangaro0o.github.io/Z71pqagO6/)
 - [23. 合并K个升序链表](https://kangaro0o.github.io/k_3q10lYh/)
 - [141. 环形链表](https://kangaro0o.github.io/GPWeVs7KM/)
+- [142. 环形链表 II](https://kangaro0o.github.io/c7TcJioWF/)
