@@ -32,3 +32,4 @@ LeetCode 算法题解合集（Go语言版）
 - [23. 合并K个升序链表](https://kangaro0o.github.io/k_3q10lYh/)
 - [141. 环形链表](https://kangaro0o.github.io/GPWeVs7KM/)
 - [142. 环形链表 II](https://kangaro0o.github.io/c7TcJioWF/)
+- [160. 相交链表](https://kangaro0o.github.io/fj1vublfg/)
