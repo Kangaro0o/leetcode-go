@@ -33,3 +33,4 @@ LeetCode 算法题解合集（Go语言版）
 - [141. 环形链表](https://kangaro0o.github.io/GPWeVs7KM/)
 - [142. 环形链表 II](https://kangaro0o.github.io/c7TcJioWF/)
 - [160. 相交链表](https://kangaro0o.github.io/fj1vublfg/)
+- [876. 链表的中间结点](https://kangaro0o.github.io/TeTO4pIG0/)
