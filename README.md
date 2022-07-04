@@ -28,3 +28,4 @@ LeetCode 算法题解合集（Go语言版）
 - [2. 两数相加](https://kangaro0o.github.io/w_3WEdNwB/)
 - [19. 删除链表的倒数第 N 个结点](https://kangaro0o.github.io/w2JaLILZn/)
 - [21. 合并两个有序链表](https://kangaro0o.github.io/8OCDsRief/)
+- [53. 最大子数组和](https://kangaro0o.github.io/Z71pqagO6/)
