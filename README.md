@@ -37,3 +37,4 @@ LeetCode 算法题解合集（Go语言版）
 - [25. K 个一组翻转链表](https://kangaro0o.github.io/AZDAk_em8/)
 - [83. 删除排序链表中的重复元素](https://kangaro0o.github.io/bICykepJM/)
 - [92. 反转链表 II](https://kangaro0o.github.io/b7gsZEkHu/)
+- [94. 二叉树的中序遍历](https://kangaro0o.github.io/87na-Jwnb/)
