@@ -34,3 +34,39 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 	}
 	return dummy.Next
 }
+
+// 递归解法
+func reverseKGroup1(head *ListNode, k int) *ListNode {
+	if head == nil {
+		return nil
+	}
+	a, b := head, head
+	for i := 0; i < k; i++ {
+		if b == nil {
+			return head
+		}
+		b = b.Next
+	}
+	// 翻转前 k 个元素
+	newHeadNode := reverse(a, b)
+	// 翻转后 a 成为前 k 个元素中最后一个节点
+	//递归翻转后续链表并链接起来
+	a.Next = reverseKGroup1(b, k)
+	return newHeadNode
+}
+
+// 翻转[a,b) 区间的元素，左闭右开
+func reverse(a, b *ListNode) *ListNode {
+	dummy := &ListNode{Val: -1}
+	dummy.Next = a
+	curr := a
+	prev := dummy
+	for curr.Next != b {
+		next := curr.Next
+		second := next.Next
+		next.Next = prev.Next
+		curr.Next = second
+		prev.Next = next // 重新设置头节点
+	}
+	return prev.Next
+}
