@@ -38,3 +38,4 @@ LeetCode 算法题解合集（Go语言版）
 - [83. 删除排序链表中的重复元素](https://kangaro0o.github.io/bICykepJM/)
 - [92. 反转链表 II](https://kangaro0o.github.io/b7gsZEkHu/)
 - [94. 二叉树的中序遍历](https://kangaro0o.github.io/87na-Jwnb/)
+- [100. 相同的树](https://kangaro0o.github.io/MlJvSpTx1/)
