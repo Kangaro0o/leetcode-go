@@ -10,6 +10,7 @@ package binarytree
  */
 
 // diameterOfBinaryTree 543. 二叉树的直径
+// 递归+递归
 func diameterOfBinaryTree(root *TreeNode) int {
 	if root == nil {
 		return 0
@@ -22,9 +23,21 @@ func diameterOfBinaryTree(root *TreeNode) int {
 	)
 }
 
+var maxDiameter int
+
+// 一次递归
+func diameterOfBinaryTree1(root *TreeNode) int {
+	maxDiameter = 0
+	maxDepthHelper(root)
+	return maxDiameter
+}
+
 func maxDepthHelper(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	return max(maxDepthHelper(root.Left), maxDepthHelper(root.Right)) + 1
+	leftMax := maxDepthHelper(root.Left)
+	rightMax := maxDepthHelper(root.Right)
+	maxDiameter = max(maxDiameter, leftMax+rightMax)
+	return max(leftMax, rightMax) + 1
 }
