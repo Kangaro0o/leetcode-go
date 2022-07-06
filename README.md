@@ -42,3 +42,4 @@ LeetCode 算法题解合集（Go语言版）
 - [102. 二叉树的层序遍历](https://kangaro0o.github.io/6uSROUBgK/)
 - [103. 二叉树的锯齿形层序遍历](https://kangaro0o.github.io/o8YjIFWLZ/)
 - [395. 至少有 K 个重复字符的最长子串](https://kangaro0o.github.io/uZQcJ_P-4/)
+- [104. 二叉树的最大深度](https://kangaro0o.github.io/yFdJfEsR3/)
