@@ -46,3 +46,4 @@ LeetCode 算法题解合集（Go语言版）
 - [144. 二叉树的前序遍历](https://kangaro0o.github.io/IOMEdmO2W/)
 - [543. 二叉树的直径](https://kangaro0o.github.io/OiDfpt1CW/)
 - [105. 从前序与中序遍历序列构造二叉树](https://kangaro0o.github.io/Jb1z5R0g3/)
+- [106. 从中序与后序遍历序列构造二叉树](https://kangaro0o.github.io/y0UFEnsTD/)
