@@ -10,6 +10,7 @@ package binarytree
  */
 
 // preorderTraversal 144. 二叉树的前序遍历
+// 递归实现
 func preorderTraversal(root *TreeNode) (res []int) {
 	if root == nil {
 		return nil
@@ -25,4 +26,26 @@ func preorderTraversal(root *TreeNode) (res []int) {
 	}
 	preorder(root)
 	return
+}
+
+// 迭代实现遍历树
+func preorderTraversal1(root *TreeNode) []int {
+	if root == nil {
+		return nil
+	}
+	var res []int
+	var stack []*TreeNode
+	for root != nil || len(stack) > 0 {
+		if root != nil {
+			stack = append(stack, root)
+			res = append(res, root.Val)
+			root = root.Left // 因为是前序遍历，所以指向左子节点
+		} else {
+			// 弹出栈顶元素
+			root = stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+			root = root.Right
+		}
+	}
+	return res
 }
