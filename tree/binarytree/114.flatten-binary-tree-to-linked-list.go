@@ -44,3 +44,24 @@ func preorder(root *TreeNode) (res []int) {
 	preorderHelper(root)
 	return
 }
+
+// 在还没操作节点右子树前，不能破坏该节点的右子树指向。所以采用后序遍历。
+func flatten1(root *TreeNode) {
+	if root == nil {
+		return
+	}
+	flatten1(root.Left)
+	flatten1(root.Right)
+	left := root.Left
+	right := root.Right
+	// 将 root 的左子树和右子树拉平
+	root.Left = nil
+	root.Right = left
+	// 将 root 的右子树接到左子树下方，然后将整个左子树作为右子树
+	p := root
+	for p.Right != nil {
+		p = p.Right
+	}
+	p.Right = right
+	return
+}
