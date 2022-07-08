@@ -53,3 +53,4 @@ LeetCode 算法题解合集（Go语言版）
 - [114. 二叉树展开为链表](https://kangaro0o.github.io/WfqRpOrh-/)
 - [116. 填充每个节点的下一个右侧节点指针](https://kangaro0o.github.io/iOO1qsZmI/)
 - [226. 翻转二叉树](https://kangaro0o.github.io/qvzz2da8Q/)
+- [971. 翻转二叉树以匹配先序遍历](https://kangaro0o.github.io/YnJsGaLqP/)
