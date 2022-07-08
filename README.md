@@ -51,3 +51,4 @@ LeetCode 算法题解合集（Go语言版）
 - [107. 二叉树的层序遍历 II](https://kangaro0o.github.io/fHPD1TaEr/)
 - [111. 二叉树的最小深度](https://kangaro0o.github.io/qZfyBx7Xy/)
 - [114. 二叉树展开为链表](https://kangaro0o.github.io/WfqRpOrh-/)
+- [116. 填充每个节点的下一个右侧节点指针](https://kangaro0o.github.io/iOO1qsZmI/)
