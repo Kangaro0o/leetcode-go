@@ -58,3 +58,4 @@ LeetCode 算法题解合集（Go语言版）
 - [341. 扁平化嵌套列表迭代器](https://kangaro0o.github.io/341-bian-ping-hua-qian-tao-lie-biao-die-dai-qi/)
 - [145. 二叉树的后序遍历](https://kangaro0o.github.io/145-er-cha-shu-de-hou-xu-bian-li/)
 - [222. 完全二叉树的节点个数](https://kangaro0o.github.io/222-wan-quan-er-cha-shu-de-jie-dian-ge-shu/)
+- [236. 二叉树的最近公共祖先](https://kangaro0o.github.io/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian/)
