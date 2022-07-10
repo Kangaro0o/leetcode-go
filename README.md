@@ -63,3 +63,4 @@ LeetCode 算法题解合集（Go语言版）
 - [501. 二叉搜索树中的众数](https://kangaro0o.github.io/501-er-cha-sou-suo-shu-zhong-de-zhong-shu/)
 - [559. N 叉树的最大深度](https://kangaro0o.github.io/559-n-cha-shu-de-zui-da-shen-du/)
 - [589. N 叉树的前序遍历](https://kangaro0o.github.io/589-n-cha-shu-de-qian-xu-bian-li/)
+- [590. N 叉树的后序遍历](https://kangaro0o.github.io/590-n-cha-shu-de-hou-xu-bian-li/)
