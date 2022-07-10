@@ -35,6 +35,26 @@ func maxDepth(root *Node) int {
 	return maxDepthNum
 }
 
+// 递归遍历计数
+func maxDepth1(root *Node) int {
+	if root == nil {
+		return 0
+	}
+	var maxDepthNum int
+	for _, child := range root.Children {
+		childDepth := maxDepth1(child)
+		maxDepthNum = max(childDepth, maxDepthNum)
+	}
+	return maxDepthNum + 1
+}
+
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
+
 func NewQueue() *MyQueue {
 	return &MyQueue{}
 }
