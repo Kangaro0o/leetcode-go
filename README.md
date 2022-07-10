@@ -61,3 +61,4 @@ LeetCode 算法题解合集（Go语言版）
 - [236. 二叉树的最近公共祖先](https://kangaro0o.github.io/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian/)
 - [297. 二叉树的序列化与反序列化](https://kangaro0o.github.io/297-er-cha-shu-de-xu-lie-hua-yu-fan-xu-lie-hua/)
 - [501. 二叉搜索树中的众数](https://kangaro0o.github.io/501-er-cha-sou-suo-shu-zhong-de-zhong-shu/)
+- [559. N 叉树的最大深度](https://kangaro0o.github.io/559-n-cha-shu-de-zui-da-shen-du/)
