@@ -46,3 +46,19 @@ func Test_chanRange(t *testing.T) {
 	}()
 	chanRange(chan1)
 }
+
+func TestProcess(t *testing.T) {
+	channels := make([]chan int, 10) // 创建 10 个切片
+
+	for i := 0; i < 10; i++ {
+		channels[i] = make(chan int)
+		go Process(channels[i]) // 启动协程
+	}
+
+	for i, ch := range channels {
+		<-ch
+		fmt.Println("Routine ", i, " quit!")
+	}
+
+	fmt.Println("go routine done!")
+}

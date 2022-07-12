@@ -26,3 +26,9 @@ func chanRange(chanName chan int) {
 		fmt.Printf("Get element from chan: %d\n", e)
 	}
 }
+
+// Process 使用 channel 控制子协程
+func Process(ch chan int) {
+	time.Sleep(time.Second)
+	ch <- 1 //管道中写入一个元素表示当前协程已结束
+}
