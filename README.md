@@ -64,3 +64,4 @@ LeetCode 算法题解合集（Go语言版）
 - [559. N 叉树的最大深度](https://kangaro0o.github.io/559-n-cha-shu-de-zui-da-shen-du/)
 - [589. N 叉树的前序遍历](https://kangaro0o.github.io/589-n-cha-shu-de-qian-xu-bian-li/)
 - [590. N 叉树的后序遍历](https://kangaro0o.github.io/590-n-cha-shu-de-hou-xu-bian-li/)
+- [652. 寻找重复的子树](https://kangaro0o.github.io/652-xun-zhao-chong-fu-de-zi-shu/)
