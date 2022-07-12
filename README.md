@@ -65,3 +65,4 @@ LeetCode 算法题解合集（Go语言版）
 - [589. N 叉树的前序遍历](https://kangaro0o.github.io/589-n-cha-shu-de-qian-xu-bian-li/)
 - [590. N 叉树的后序遍历](https://kangaro0o.github.io/590-n-cha-shu-de-hou-xu-bian-li/)
 - [652. 寻找重复的子树](https://kangaro0o.github.io/652-xun-zhao-chong-fu-de-zi-shu/)
+- [965. 单值二叉树](https://kangaro0o.github.io/965-dan-zhi-er-cha-shu/)
