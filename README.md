@@ -69,3 +69,4 @@ LeetCode 算法题解合集（Go语言版）
 - [735. 行星碰撞](https://kangaro0o.github.io/735-xing-xing-peng-zhuang/)
 - [95. 不同的二叉搜索树 II](https://kangaro0o.github.io/95-bu-tong-de-er-cha-sou-suo-shu-ii/)
 - [96. 不同的二叉搜索树](https://kangaro0o.github.io/96-bu-tong-de-er-cha-sou-suo-shu/)
+- [剑指 Offer 54. 二叉搜索树的第k大节点](https://kangaro0o.github.io/jian-zhi-offer-54-er-cha-sou-suo-shu-de-di-k-da-jie-dian)
