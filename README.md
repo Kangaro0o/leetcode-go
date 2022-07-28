@@ -73,3 +73,4 @@ LeetCode 算法题解合集（Go语言版）
 - [206. 反转链表](https://kangaro0o.github.io/206-fan-zhuan-lian-biao)
 - [31. 下一个排列](https://kangaro0o.github.io/31-xia-yi-ge-pai-lie)
 - [200. 岛屿数量](https://kangaro0o.github.io/200-dao-yu-shu-liang)
+- [1. 两数之和](https://kangaro0o.github.io/1-liang-shu-zhi-he)
