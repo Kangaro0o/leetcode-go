@@ -74,3 +74,4 @@ LeetCode 算法题解合集（Go语言版）
 - [31. 下一个排列](https://kangaro0o.github.io/31-xia-yi-ge-pai-lie)
 - [200. 岛屿数量](https://kangaro0o.github.io/200-dao-yu-shu-liang)
 - [1. 两数之和](https://kangaro0o.github.io/1-liang-shu-zhi-he)
+- [498. 对角线遍历](https://kangaro0o.github.io/498-dui-jiao-xian-bian-li)
