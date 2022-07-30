@@ -1,4 +1,4 @@
-package ali
+package alibaba
 
 // twoSum 1. 两数之和
 func twoSum(nums []int, target int) []int {
