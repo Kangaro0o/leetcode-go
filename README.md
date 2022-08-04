@@ -79,3 +79,4 @@ LeetCode 算法题解合集（Go语言版）
 - [56. 合并区间](https://kangaro0o.github.io/56-he-bing-qu-jian)
 - [215. 数组中的第K个最大元素](https://kangaro0o.github.io/215-shu-zu-zhong-de-di-k-ge-zui-da-yuan-su)
 - [98. 验证二叉搜索树](https://kangaro0o.github.io/98-yan-zheng-er-cha-sou-suo-shu)
+- [6. Z 字形变换](https://kangaro0o.github.io/6-z-zi-xing-bian-huan)
