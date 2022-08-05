@@ -6,25 +6,29 @@ func multiply(num1 string, num2 string) string {
 	if num1 == "0" || num2 == "0" {
 		return "0"
 	}
-	res := "0"
-	len1, len2 := len(num1), len(num2)
-
-	for i := len1 - 1; i >= 0; i-- {
+	m, n := len(num1), len(num2)
+	ans := "0"
+	for i := n - 1; i >= 0; i-- {
+		add := 0
 		curr := ""
-		for j := len2 - 2; j >= 0; j-- {
-			x, y := 1, 1
-			for p := 0; p < len1-i-1; p++ {
-				x *= 10
-			}
-			for q := 0; q < len2-j-1; q++ {
-				y *= 10
-			}
-			tmp := (int(num1[i]-'0') * x) * (int(num2[j]-'0') * y)
-			curr = strconv.Itoa(tmp)
+
+		for j := n - 1; j > i; j-- {
+			curr += "0"
 		}
-		res = addStrings(res, curr)
+
+		y := int(num2[i] - '0')
+		for j := m - 1; j >= 0; j-- {
+			x := int(num1[j] - '0')
+			product := x*y + add
+			add = product / 10
+			curr = strconv.Itoa(product%10) + curr
+		}
+		for ; add != 0; add /= 10 {
+			curr = strconv.Itoa(add%10) + curr
+		}
+		ans = addStrings(ans, curr)
 	}
-	return res
+	return ans
 }
 
 func addStrings(num1, num2 string) string {
