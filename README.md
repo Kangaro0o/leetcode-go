@@ -83,3 +83,4 @@ LeetCode 算法题解合集（Go语言版）
 - [415. 字符串相加](https://kangaro0o.github.io/415-zi-fu-chuan-xiang-jia)
 - [43. 字符串相乘](https://kangaro0o.github.io/43-zi-fu-chuan-xiang-cheng)
 - [4. 寻找两个正序数组的中位数](https://kangaro0o.github.io/4-xun-zhao-liang-ge-zheng-xu-shu-zu-de-zhong-wei-shu)
+- [450. 删除二叉搜索树中的节点](https://kangaro0o.github.io/450-shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian)
