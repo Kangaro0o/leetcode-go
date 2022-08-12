@@ -89,3 +89,4 @@ LeetCode 算法题解合集（Go语言版）
 - [230. 二叉搜索树中第K小的元素](https://kangaro0o.github.io/230-er-cha-sou-suo-shu-zhong-di-k-xiao-de-yuan-su)
 - [538. 把二叉搜索树转换为累加树](https://kangaro0o.github.io/538-ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-jia-shu)
 - [530. 二叉搜索树的最小绝对差](https://kangaro0o.github.io/530-er-cha-sou-suo-shu-de-zui-xiao-jue-dui-chai)
+- [783. 二叉搜索树节点最小距离](https://kangaro0o.github.io/783-er-cha-sou-suo-shu-jie-dian-zui-xiao-ju-chi)
