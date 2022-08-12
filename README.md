@@ -87,3 +87,4 @@ LeetCode 算法题解合集（Go语言版）
 - [700. 二叉搜索树中的搜索](https://kangaro0o.github.io/700-er-cha-sou-suo-shu-zhong-de-sou-suo)
 - [701. 二叉搜索树中的插入操作](https://kangaro0o.github.io/701-er-cha-sou-suo-shu-zhong-de-cha-ru-cao-zuo)
 - [230. 二叉搜索树中第K小的元素](https://kangaro0o.github.io/230-er-cha-sou-suo-shu-zhong-di-k-xiao-de-yuan-su)
+- [538. 把二叉搜索树转换为累加树](https://kangaro0o.github.io/538-ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-jia-shu)
