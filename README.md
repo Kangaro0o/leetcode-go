@@ -91,3 +91,4 @@ LeetCode 算法题解合集（Go语言版）
 - [530. 二叉搜索树的最小绝对差](https://kangaro0o.github.io/530-er-cha-sou-suo-shu-de-zui-xiao-jue-dui-chai)
 - [783. 二叉搜索树节点最小距离](https://kangaro0o.github.io/783-er-cha-sou-suo-shu-jie-dian-zui-xiao-ju-chi)
 - [124. 二叉树中的最大路径和](https://kangaro0o.github.io/124-er-cha-shu-zhong-de-zui-da-lu-jing-he)
+- [928 · 最多有两个不同字符的最长子串](https://kangaro0o.github.io/lintcode928-zui-duo-you-liang-ge-bu-tong-zi-fu-de-zui-chang-zi-chuan)
